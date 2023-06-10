@@ -16,6 +16,7 @@
 		0F488FCD2A344C9400FBC64D /* iMessageViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F488FCC2A344C9400FBC64D /* iMessageViewFactory.swift */; };
 		0F488FCF2A34513A00FBC64D /* iMessageChannelListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F488FCE2A34513A00FBC64D /* iMessageChannelListHeader.swift */; };
 		0F488FD12A34531900FBC64D /* iMessageChannelListHeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F488FD02A34531900FBC64D /* iMessageChannelListHeaderModifier.swift */; };
+		0F488FD32A3455CF00FBC64D /* iMessageChannelListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F488FD22A3455CF00FBC64D /* iMessageChannelListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0F488FCC2A344C9400FBC64D /* iMessageViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageViewFactory.swift; sourceTree = "<group>"; };
 		0F488FCE2A34513A00FBC64D /* iMessageChannelListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageChannelListHeader.swift; sourceTree = "<group>"; };
 		0F488FD02A34531900FBC64D /* iMessageChannelListHeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageChannelListHeaderModifier.swift; sourceTree = "<group>"; };
+		0F488FD22A3455CF00FBC64D /* iMessageChannelListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageChannelListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +47,6 @@
 		0F488FAD2A3447C000FBC64D = {
 			isa = PBXGroup;
 			children = (
-				0F488FD02A34531900FBC64D /* iMessageChannelListHeaderModifier.swift */,
-				0F488FCE2A34513A00FBC64D /* iMessageChannelListHeader.swift */,
 				0F488FB82A3447C000FBC64D /* iMessageClone */,
 				0F488FB72A3447C000FBC64D /* Products */,
 			);
@@ -69,6 +69,9 @@
 				0F488FBB2A3447C000FBC64D /* ContentView.swift */,
 				0F488FBD2A3447C100FBC64D /* Assets.xcassets */,
 				0F488FBF2A3447C100FBC64D /* Preview Content */,
+				0F488FCE2A34513A00FBC64D /* iMessageChannelListHeader.swift */,
+				0F488FD02A34531900FBC64D /* iMessageChannelListHeaderModifier.swift */,
+				0F488FD22A3455CF00FBC64D /* iMessageChannelListItemView.swift */,
 			);
 			path = iMessageClone;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				0F488FCB2A344AF000FBC64D /* AppDelegate.swift in Sources */,
 				0F488FCD2A344C9400FBC64D /* iMessageViewFactory.swift in Sources */,
 				0F488FBC2A3447C000FBC64D /* ContentView.swift in Sources */,
+				0F488FD32A3455CF00FBC64D /* iMessageChannelListItemView.swift in Sources */,
 				0F488FBA2A3447C000FBC64D /* iMessageCloneApp.swift in Sources */,
 				0F488FCF2A34513A00FBC64D /* iMessageChannelListHeader.swift in Sources */,
 				0F488FD12A34531900FBC64D /* iMessageChannelListHeaderModifier.swift in Sources */,
